@@ -36,7 +36,9 @@ apt install clipit
 apt install libnotify-bin 
 apt install tlp #laptop-mode-tools
 
-
+#
+# to be decided
+#
 apt install gpicview mirage gthumb
 apt install galternatives
 apt install galculator qalculate apcalc
