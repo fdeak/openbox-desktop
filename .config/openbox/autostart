@@ -1,0 +1,16 @@
+
+~/.screenlayout/layout.sh
+
+nitrogen --restore 
+compton &
+tint2 &
+thunar --daemon &
+
+gxkb &
+pnmixer &
+clipit &
+/usr/lib/notification-daemon/notification-daemon &
+
+light-locker &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
