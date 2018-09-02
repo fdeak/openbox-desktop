@@ -11,6 +11,7 @@ Basic install and config for a complete openbox-based desktop
 - lot of things are stolen from bunsenlabs linux
   - differences from bunsen
     - lxsession-logout
+    - try not to use/create external repos
 
 TODO
 - post install setup, such as 
