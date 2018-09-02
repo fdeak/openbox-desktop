@@ -10,14 +10,16 @@ Basic install and config for a complete openbox-based desktop
 
 - lot of things are stolen from bunsenlabs linux
   - differences from bunsen
-    - lxsession-logout
+    - lxsession-logout instead of bl-exit
     - try not to use/create external repos
+    - use tint2config instead of editing a config file
 
 TODO
 - post install setup, such as 
-  - gtk theme
+  - setting up gtk theme
   - power manager setup
-  - tint2 on multiple monitors
+  - merge new configs on existing setups
+  - auto-config tint2 for multiple monitors
   
 - complete the openbox menu for all config items (e.g arandr)
 
