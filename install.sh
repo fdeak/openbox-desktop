@@ -35,6 +35,7 @@ apt install policykit-1-gnome
 apt install clipit 
 apt install libnotify-bin 
 apt install tlp #laptop-mode-tools
+apt install numlockx
 
 #
 # to be decided

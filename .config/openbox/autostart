@@ -1,7 +1,7 @@
 
 ~/.screenlayout/layout.sh
 
-nitrogen --restore 
+nitrogen --restore
 compton &
 tint2 &
 thunar --daemon &
@@ -14,3 +14,8 @@ clipit &
 light-locker &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
+if laptop-detect; then
+  numlockx off
+else
+  numlockx on
+fi
