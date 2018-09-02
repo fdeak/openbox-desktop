@@ -1,5 +1,8 @@
 # openbox-desktop
 
+Basic install and config for a complete openbox-based desktop
+
+
 TODO
 - post install setup, such as 
   - gtk theme
