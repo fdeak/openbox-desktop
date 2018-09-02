@@ -7,6 +7,7 @@ Basic install and config for a complete openbox-based desktop
   - use debian (centos based setup may be tested later)
   - provide an install script to install the necessary packages
   - provide config files to complete the desktop
+  - provide optional graphical tools where it is poossible
 
 - lot of things are stolen from bunsenlabs linux
   - differences from bunsen
