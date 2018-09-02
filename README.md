@@ -8,7 +8,7 @@ Basic install and config for a complete openbox-based desktop
   - provide an install script to install the necessary packages
   - provide config files to complete the desktop
 
-- lot things are stolen from bunsenlabs linux
+- lot of things are stolen from bunsenlabs linux
   - differences from bunsen
     - lxsession-logout
 
