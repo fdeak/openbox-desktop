@@ -170,7 +170,7 @@ launcher_item_app = /usr/share/applications/Thunar.desktop
 
 #-------------------------------------
 # Clock
-time1_format = %H:%M
+time1_format = %m.%d - %H:%M
 time2_format = 
 time1_timezone = 
 time2_timezone = 
