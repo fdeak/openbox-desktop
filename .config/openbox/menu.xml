@@ -16,37 +16,73 @@
 		<separator/>
 		<menu id="client-list-menu"/>
 		<separator/>
-		<item label="ObConf">
-			<action name="Execute">
-				<execute>obconf</execute>
-			</action>
-		</item>
-		<item label="ObMenu">
-			<action name="Execute">
-				<command>obmenu</command>
-			</action>
-		</item>
-		<item label="Appereance">
-			<action name="Execute">
-				<command>/usr/bin/lxappearance</command>
-			</action>
-		</item>
-		<item label="Power Manager Settings">
-			<action name="Execute">
-				<command>/usr/bin/xfce4-power-manager-settings</command>
-			</action>
-		</item>
-		<item label="Reconfigure">
-			<action name="Reconfigure"/>
-		</item>
-		<item label="Restart">
-			<action name="Restart"/>
-		</item>
-		<item label="Restart tint2">
-			<action name="Execute">
-				<command>killall -SIGUSR1 tint2</command>
-			</action>
-		</item>
+		<menu id="root-menu-66296" label="Prefences">
+			<item label="ObConf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="ObMenu">
+				<action name="Execute">
+					<command>obmenu</command>
+				</action>
+			</item>
+			<item label="Reconfigure Openbox">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Restart Openbox">
+				<action name="Restart"/>
+			</item>
+			<separator/>
+			<item label="Appereance">
+				<action name="Execute">
+					<command>/usr/bin/lxappearance</command>
+				</action>
+			</item>
+			<separator/>
+			<item label="Tint2 Config">
+				<action name="Execute">
+					<command>tint2conf</command>
+				</action>
+			</item>
+			<item label="Restart Tint2">
+				<action name="Execute">
+					<command>killall -SIGUSR1 tint2</command>
+				</action>
+			</item>
+			<separator/>
+			<item label="Power Manager Settings">
+				<action name="Execute">
+					<command>/usr/bin/xfce4-power-manager-settings</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-163223" label="System">
+			<item label="Synaptic">
+				<action name="Execute">
+					<command>synaptic-pkexec</command>
+				</action>
+			</item>
+			<item label="Gparted">
+				<action name="Execute">
+					<command>gparted</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-483433" label="Multimedia">
+			<item label="Vlc">
+				<action name="Execute">
+					<command>vlc</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-223443" label="Office">
+			<item label="New Item">
+				<action name="Execute">
+					<command>command</command>
+				</action>
+			</item>
+		</menu>
 		<separator/>
 		<item label="Exit">
 			<action name="Exit"/>
